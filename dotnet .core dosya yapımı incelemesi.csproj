@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>dotnet_.core_dosya_yapımı_incelemesi</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Yardımcı Dosyalar\20220715_142934.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Yardımcı Dosyalar\20220715_142934.jpg">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+  </ItemGroup>
+
+</Project>
